@@ -1,0 +1,19 @@
+.character-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    max-width: 100%;
+    margin: 32px 0 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.character-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #eee8;
+    border-radius: 6px;
+    padding: 16px;
+}
